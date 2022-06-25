@@ -32,7 +32,7 @@ fig = plt.figure(figsize=(4, 2))
 m1 = plt.scatter(X_train, y_train, color=cmap(0.8), s=5)
 m2 = plt.scatter(X_test, y_test, color=cmap(0.5), s=10)
 plt.plot(X, y_pred_line, color="black", linewidth=2, label="Prediction")
-plt.show()
+#plt.show()
 
 
 
